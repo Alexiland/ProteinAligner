@@ -24,7 +24,7 @@ python esm_example.py
 If everything works, you can find the saved embedding in your save folder, which is also set in the esm_example.py file.
 
 ## Downstream task fine-tuning
-After getting the calculated embeddings, you can apply them for further applications, like classification, regression, etc. We tested ProteinBind in four downstream tasks: [Type I Anti-CRISPR activities detection](https://github.com/USask-BINFO/AcrTransAct), [Peptide bioactivities detection](https://github.com/dzjxzyd/UniDL4BioPep), [Pathogenicity prediction of missense variants](https://github.com/wlin16/VariPred), and [Minimum inhibitory concentration value prediction](https://github.com/amirpandi/Deep_AMP). When applying to these tasks, we replaced the vanilla encoders by the encoders from pre-trained ProteinBind.
+After getting the calculated embeddings, you can apply them for further applications, like classification, regression, etc. We tested ProteinBind in four downstream tasks: [Type I Anti-CRISPR activities detection](https://github.com/USask-BINFO/AcrTransAct), [Peptide bioactivities detection](https://github.com/dzjxzyd/UniDL4BioPep), [Pathogenicity prediction of missense variants](https://github.com/wlin16/VariPred), [Minimum inhibitory concentration value prediction](https://github.com/amirpandi/Deep_AMP), and [Thermostability prediction](https://github.com/VITA-Group/SMC-Bench). When applying to these tasks, we replaced the vanilla encoders by the encoders from pre-trained ProteinBind.
 
 ## License
 This work is licensed under the MIT license. See the [LICENSE](LICENSE) for details.
