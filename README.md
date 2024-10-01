@@ -33,5 +33,5 @@ torchrun --rdzv-backend=c10d --rdzv-endpoint=localhost:23308 --nnodes=1 --rdzv_i
 ```
 
 # Downstream
-TBD
+You can check [downstream](ProteinAligner_downstream) see how to apply pretrained ProteinAligner to downstream tasks.
 
