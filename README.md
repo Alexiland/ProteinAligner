@@ -1,7 +1,7 @@
 # ProteinAligner
 ProteinAligner is a multimodal protein representation framework that unifies structural, sequential, and textual data into a single representation space, allowing for diverse applications with minimal training by using pre-trained modality encoders.
 
-See [our manuscript]() for details.
+See [our manuscript](https://www.biorxiv.org/content/10.1101/2024.10.06.616870v1.full.pdf) for details.
 
 # Installation
 To install, run the following bash script.
@@ -19,7 +19,7 @@ The framework is trained on a large-scale dataset of 150,000 (structure, sequenc
 
 The training of ProteinAligner follows a two-stage pretrain-finetune pipeline. Initially, the pretraining stage involves computing the contrastive loss on sequence-paired data, specifically focusing on sequence-structure and sequence-text pairs. This contrastive learning approach ensures that the embeddings of protein structures and textual descriptions align with the sequence embeddings of the same protein. Following this, the fine-tuning stage integrates the pretrained encoder weights with task-specific layers, enabling the application of ProteinAligner to a variety of domain-specific tasks. This structured approach allows ProteinAligner to leverage the strengths of each modality, creating a robust and versatile framework for protein representation.
 
-We detail model, training procedures, and data access in [our manuscript](). 
+We detail model, training procedures, and data access in [our manuscript](https://www.biorxiv.org/content/10.1101/2024.10.06.616870v1.full.pdf). 
 
 ## Running the pretrain code
 You can run the pretrain code with the following bash script.
